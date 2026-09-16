@@ -1,0 +1,27 @@
+:root{
+    --colour-fun : #4e3939;
+}
+
+ul{
+    background-color: var(--colour-fun);
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: left;
+	align-items: center;
+	align-content: stretch;
+}
+
+.row-element{
+    padding: 1rem;
+}
